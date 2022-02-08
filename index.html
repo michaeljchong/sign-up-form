@@ -10,10 +10,10 @@
 <body>
   <div class="sidebar">
     <div class="logo">
-      <img class="icon" src="images/" alt="icon">
+      <img src="images/odin-lined.png" alt="icon">
       <p>LOGO</p>
     </div>
-    <img class="background" src="images/markus-winkler-1gkvpUCQkmA-unsplash.jpg" alt="Korean dining">
+    <img src="images/markus-winkler-1gkvpUCQkmA-unsplash.jpg" alt="Korean dining">
     <p class="credit">Photo by <a
       href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus
       Winkler</a> on <a
@@ -23,8 +23,8 @@
     <div class="intro">
       <p>A culinary journey into Korean cuisine that will shock your palette with explosive flavor! Sign up now to give your taste buds the out of this world experience that they deserve.</p>
     </div>
-    <div class="form">
-      <form action="signupform/path" method="post">
+    <form action="signupform/path" method="post">
+      <fieldset class="info">
         <label for="first_name">First Name</label>
         <input type="text" id="first_name" name="first_name">
         <label for="last_name">Last Name</label>
@@ -37,12 +37,13 @@
         <input type="password" id="password" name="password">
         <label for="confirm_password">Confirm Password</label>
         <input type="password" id="confirm_password" name="confirm_password">
-      </form>
-    </div>
-    <div class="action">
-      <button type="submit">Create Account</button>
-      <p>Already have an account? <a href="">Log in</a></p>
-    </div>
+      </fieldset>
+      <fieldset class="action">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+      </fieldset>
+    </form>
+
   </div>
 </body>
 </html>
