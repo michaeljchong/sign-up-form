@@ -11,7 +11,7 @@
   <div class="sidebar">
     <div class="logo">
       <img src="images/odin-lined.png" alt="icon">
-      <p>LOGO</p>
+      <p>BANCHAN</p>
     </div>
     <img src="images/markus-winkler-1gkvpUCQkmA-unsplash.jpg" alt="Korean dining">
     <p class="credit">Photo by <a
@@ -24,26 +24,27 @@
       <p>A culinary journey into Korean cuisine that will shock your palette with explosive flavor! Sign up now to give your taste buds the out of this world experience that they deserve.</p>
     </div>
     <form action="signupform/path" method="post">
-      <fieldset class="info">
+      <div class="column">
         <label for="first_name">First Name</label>
         <input type="text" id="first_name" name="first_name">
-        <label for="last_name">Last Name</label>
-        <input type="text" id="last_name" name="last_name">
         <label for="user_email">Email</label>
         <input type="email" id="user_email" name="email" placeholder="you@example.com">
-        <label for="phone_number">Phone Number</label>
-        <input type="" id="phone_number" name="phone_number">
         <label for="password">Password</label>
         <input type="password" id="password" name="password">
+      </div>
+      <div class="column">
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name">
+        <label for="phone_number">Phone Number</label>
+        <input type="number" id="phone_number" name="phone_number">
         <label for="confirm_password">Confirm Password</label>
         <input type="password" id="confirm_password" name="confirm_password">
-      </fieldset>
-      <fieldset class="action">
-          <button type="submit">Create Account</button>
-          <p>Already have an account? <a href="">Log in</a></p>
-      </fieldset>
+      </div>
     </form>
-
+    <div>
+      <button type="submit">Create Account</button>
+      <p>Already have an account? <a href="">Log in</a></p>
+    </div>
   </div>
 </body>
 </html>
