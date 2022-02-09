@@ -22,32 +22,40 @@
       Winkler</a> on <a
       href="https://unsplash.com/s/photos/korean-food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
   </div>
-  <div class="content">
+  <form action="signupform/path" method="post">
     <div class="intro">
       <p>A culinary journey into Korean cuisine that will shock your palette with an unimaginable depth of flavor! Sign up now to give your taste buds the out of this world experience that they deserve.</p>
     </div>
-    <form action="signupform/path" method="post">
-      <div class="column">
+    <div class="info">
+      <div class="field">
         <label for="first_name">First Name</label>
-        <input type="text" id="first_name" name="first_name">
-        <label for="user_email">Email</label>
-        <input type="email" id="user_email" name="email" placeholder="you@example.com">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password">
+        <input type="text" id="first_name" name="first_name" required>
       </div>
-      <div class="column">
+      <div class="field">
         <label for="last_name">Last Name</label>
-        <input type="text" id="last_name" name="last_name">
-        <label for="phone_number">Phone Number</label>
-        <input type="number" id="phone_number" name="phone_number">
-        <label for="confirm_password">Confirm Password</label>
-        <input type="password" id="confirm_password" name="confirm_password">
+        <input type="text" id="last_name" name="last_name" required>
       </div>
-    </form>
-    <div>
+      <div class="field">
+        <label for="user_email">Email</label>
+        <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
+      </div>
+      <div class="field">
+        <label for="phone_number">Phone Number</label>
+        <input type="number" id="phone_number" name="phone_number" required>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="field">
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+      </div>
+    </div>
+    <div class="action">
       <button type="submit">Create Account</button>
       <p>Already have an account? <a href="">Log in</a></p>
     </div>
-  </div>
+  </form>
 </body>
 </html>
