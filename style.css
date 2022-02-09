@@ -54,13 +54,14 @@ body {
 }
 
 .sidebar {
+  position: relative;
   display: flex;
   justify-content: center;
   color: white;
 }
 
 .sidebar img {
-  height: 100vh;
+  height: 650px;
 }
 
 .sidebar .credit {
@@ -79,11 +80,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 20vh;
-  padding: 20px;
+  top: 200px;
+  padding: 20px 0;
   font-family: 'Supermercado One', cursive;
   font-size: 5rem;
   background-color: rgba(0, 0, 0, 0.399);
+  width: 100%;
 }
 
 .logo img {
@@ -95,6 +97,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: rgb(242, 242, 242);
+
 }
 
 .content>div,
