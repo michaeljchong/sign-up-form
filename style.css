@@ -81,6 +81,7 @@ body {
   align-items: center;
   top: 20vh;
   padding: 20px;
+  font-family: 'Supermercado One', cursive;
   font-size: 5rem;
   background-color: rgba(0, 0, 0, 0.399);
 }
