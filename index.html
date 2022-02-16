@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
@@ -23,33 +24,33 @@
       href="https://unsplash.com/s/photos/korean-food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       | Chili icon by <a href="https://www.flaticon.com/free-icons/chili" title="chili icons">AomAm - Flaticon</a></p>
   </div>
-  <form action="signupform/path" method="post">
+  <form id="form" action="" method="post">
     <div class="intro">
       <p>A culinary journey into Korean cuisine that will shock your palette with an unimaginable depth of flavor! Sign up now to give your taste buds the out of this world experience that they deserve.</p>
     </div>
     <div class="info">
       <div class="field">
-        <label for="first_name">First Name</label>
+        <label for="first_name">*First Name</label>
         <input type="text" id="first_name" name="first_name" placeholder="Donghoon" required>
       </div>
       <div class="field">
-        <label for="last_name">Last Name</label>
+        <label for="last_name">*Last Name</label>
         <input type="text" id="last_name" name="last_name" placeholder="Park" required>
       </div>
       <div class="field">
-        <label for="user_email">Email</label>
+        <label for="user_email">*Email</label>
         <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
       </div>
       <div class="field">
-        <label for="phone_number">Phone Number</label>
-        <input type="number" id="phone_number" name="phone_number" placeholder="01030070992" required>
+        <label for="phone_number">Phone Number (optional)</label>
+        <input type="text" inputmode="numeric" id="phone_number" name="phone_number" placeholder="01030070992">
       </div>
       <div class="field">
-        <label for="password">Password</label>
+        <label for="password">*Password</label>
         <input type="password" id="password" name="password" required>
       </div>
       <div class="field">
-        <label for="confirm_password">Confirm Password</label>
+        <label for="confirm_password">*Confirm Password</label>
         <input type="password" id="confirm_password" name="confirm_password" required>
       </div>
     </div>

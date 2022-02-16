@@ -61,7 +61,7 @@ body {
 }
 
 .sidebar img {
-  height: 650px;
+  height: 100vh;
 }
 
 .sidebar .credit {
